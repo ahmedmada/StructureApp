@@ -40,32 +40,37 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_fast_rewind_black_24dp"/>
+            android:src="@drawable/ic_fast_rewind_black_24dp"
+            android:onClick="rewind"/>
         <ImageView
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_pause_black_24dp"/>
-
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/ic_play_arrow_black_24dp"/>
-
-
+            android:src="@drawable/ic_pause_black_24dp"
+            android:onClick="pause"/>
 
         <ImageView
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_stop_black_24dp"/>
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:onClick="play"/>
+
+
 
         <ImageView
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_fast_forward_black_24dp"/>
+            android:src="@drawable/ic_stop_black_24dp"
+            android:onClick="stop"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_fast_forward_black_24dp"
+            android:onClick="forward"/>
 
     </LinearLayout>
 
