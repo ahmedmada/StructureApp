@@ -26,7 +26,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+            android:onClick="favSong">
 
 
             <ImageView
@@ -73,7 +73,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+      android:onClick="favSong">
 
 
             <ImageView
@@ -120,7 +120,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+      android:onClick="favSong" >
 
 
             <ImageView
@@ -167,7 +167,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+      android:onClick="favSong">
 
 
             <ImageView
@@ -214,7 +214,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+      android:onClick="favSong">
 
 
             <ImageView
@@ -261,7 +261,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+      android:onClick="favSong" >
 
 
             <ImageView
@@ -308,7 +308,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+      android:onClick="favSong">
 
 
             <ImageView
