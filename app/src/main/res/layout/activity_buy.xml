@@ -26,7 +26,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+            android:onClick="buySong">
 
 
             <ImageView
@@ -81,6 +81,7 @@
 
         </LinearLayout>
         <LinearLayout
+            android:onClick="buySong"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -148,7 +149,7 @@
             android:layout_marginBottom="8dp"
             android:orientation="horizontal"
             android:padding="5dp"
-            >
+            android:onClick="buySong">
 
 
             <ImageView
@@ -203,6 +204,129 @@
 
         </LinearLayout>
         <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:onClick="buySong">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/textView1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/player_bg"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Song Name"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="description"
+                    android:layout_below="@+id/albumTitle1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120$"
+                    android:layout_below="@+id/albumTitle1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:onClick="buySong">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/textView1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/player_bg"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Song Name"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="description"
+                    android:layout_below="@+id/albumTitle1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120$"
+                    android:layout_below="@+id/albumTitle1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:onClick="buySong"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -264,6 +388,7 @@
 
         </LinearLayout>
         <LinearLayout
+            android:onClick="buySong"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -325,6 +450,7 @@
 
         </LinearLayout>
         <LinearLayout
+            android:onClick="buySong"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -386,128 +512,7 @@
 
         </LinearLayout>
         <LinearLayout
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginBottom="8dp"
-            android:orientation="horizontal"
-            android:padding="5dp"
-            >
-
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:layout_alignTop="@+id/textView1"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="16dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/player_bg"/>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Song Name"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="description"
-                    android:layout_below="@+id/albumTitle1"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Price"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="120$"
-                    android:layout_below="@+id/albumTitle1"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    />
-            </LinearLayout>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginBottom="8dp"
-            android:orientation="horizontal"
-            android:padding="5dp"
-            >
-
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:layout_alignTop="@+id/textView1"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="16dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/player_bg"/>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Song Name"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="description"
-                    android:layout_below="@+id/albumTitle1"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Price"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="120$"
-                    android:layout_below="@+id/albumTitle1"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    />
-            </LinearLayout>
-
-        </LinearLayout>
-        <LinearLayout
+            android:onClick="buySong"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="100dp"
