@@ -10,4 +10,8 @@ public class Albums extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_albums);
     }
+    public void albumClick(View view) {
+        Toast.makeText(Albums.this,"Album Click",Toast.LENGTH_LONG).show();
+    }
+
 }
