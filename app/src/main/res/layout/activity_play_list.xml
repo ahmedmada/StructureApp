@@ -14,124 +14,105 @@
 
 
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="playlist"
             android:gravity="center"
             android:textSize="16sp"
             android:onClick="playListClick"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="#fff"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="playlist"
-            android:onClick="playListClick"
-            android:textSize="16sp"
-            android:gravity="center"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="playlist"
-            android:textSize="16sp"
-            android:onClick="playListClick"
-            android:gravity="center"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="playlist"
-            android:onClick="playListClick"
-            android:textSize="16sp"
-            android:gravity="center"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="playlist"
-            android:onClick="playListClick"
-            android:textSize="16sp"
-            android:gravity="center"
-            android:layout_margin="5dp"/>
-
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="playlist"
             android:gravity="center"
-            android:onClick="playListClick"
-            android:textSize="16sp"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
             android:textSize="16sp"
             android:onClick="playListClick"
-            android:text="playlist"
-            android:gravity="center"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="#fff"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:onClick="playListClick"
-            android:layout_height="50dp"
-            android:text="playlist"
-            android:gravity="center"
-            android:textSize="16sp"
-            android:layout_margin="5dp"/>
-
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="playlist"
             android:gravity="center"
-            android:onClick="playListClick"
-            android:textSize="16sp"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:onClick="playListClick"
-            android:text="playlist"
-            android:textSize="16sp"
-            android:gravity="center"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:onClick="playListClick"
-            android:text="playlist"
-            android:gravity="center"
-            android:textSize="16sp"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="playlist"
             android:textSize="16sp"
             android:onClick="playListClick"
-            android:gravity="center"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="#fff"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="playlist"
             android:gravity="center"
-            android:onClick="playListClick"
             android:textSize="16sp"
-            android:layout_margin="5dp"/>
+            android:onClick="playListClick"
+            android:layout_margin="5dp"
+            android:background="#fff"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="playlist"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:onClick="playListClick"
+            android:layout_margin="5dp"
+            android:background="#fff"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="playlist"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:onClick="playListClick"
+            android:layout_margin="5dp"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="playlist"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:onClick="playListClick"
+            android:layout_margin="5dp"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="playlist"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:onClick="playListClick"
+            android:layout_margin="5dp"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="playlist"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:onClick="playListClick"
+            android:layout_margin="5dp"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="playlist"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:onClick="playListClick"
+            android:layout_margin="5dp"
+            android:background="#fff"/>
 
     </LinearLayout>
 
