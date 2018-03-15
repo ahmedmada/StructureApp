@@ -1,5 +1,6 @@
 package com.basic.nanodegree.musicalstructureapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,6 @@ public class Fav extends AppCompatActivity {
         setContentView(R.layout.activity_fav);
     }
     public void favSong(View view) {
-        Toast.makeText(Fav.this,"Fav Song",Toast.LENGTH_LONG).show();
+        startActivity(new Intent(Fav.this,Player.class));
     }
 }

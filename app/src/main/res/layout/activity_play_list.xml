@@ -13,6 +13,10 @@
         android:orientation="vertical">
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list of song"/>
 
         <Button
             android:layout_width="match_parent"

@@ -1,5 +1,6 @@
 package com.basic.nanodegree.musicalstructureapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,6 @@ public class PlayList extends AppCompatActivity {
         setContentView(R.layout.activity_play_list);
     }
     public void playListClick(View view) {
-        Toast.makeText(PlayList.this,"PlayList Click",Toast.LENGTH_LONG).show();
+        startActivity(new Intent(PlayList.this,Player.class));
     }
 }
